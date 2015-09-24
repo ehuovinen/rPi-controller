@@ -26,8 +26,8 @@ class GUI:
         self.tile_color = self.bg_color
         self.display_surface = pygame.display.set_mode((self.window_width, self.window_height))
         pygame.display.set_caption("Light Controlling Interface")
-        self.font = pygame.font.Font("assets\\fonts\Cutie Patootie Skinny.ttf", self.font_size)
-        self.font_bold = pygame.font.Font("assets\\fonts\Cutie Patootie.ttf", self.font_size)
+        self.font = pygame.font.Font("assets/fonts/Cutie Patootie Skinny.ttf", self.font_size)
+        self.font_bold = pygame.font.Font("assets/fonts/Cutie Patootie.ttf", self.font_size)
         self.typing_tag = False
         self.pos_pad_modify_command = {
             0: (90, 340),
